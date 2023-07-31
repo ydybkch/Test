@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    background-image:url("image/바탕.jpg");
+    background-repeat: no-repeat; /* 이미지하나만 나오도록*/
+    background-size: cover; /* 사이즈를 채울때 */
+}
+
+.container{
+    background-color:aliceblue;
+    /* 100%에 뷰 를 높이로 다채운다 */
+    min-height: 100vh; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.task-tabs{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+
+.task-area{
+    border:1px solid lightgray;
+}
+
+.task-tabs div{
+    padding:1em;
+}
+#under-line{
+    height: 4px;
+    background-color: pink;
+    position: absolute;
+    width: 40px;
+    left: 12px;
+    top: 40px;
+    padding: 0px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
